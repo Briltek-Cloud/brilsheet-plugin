@@ -1,0 +1,9 @@
+{
+  "name": "brilsheet",
+  "displayName": "BrilSheet",
+  "version": "1.0.0",
+  "description": "Sheet skills, Apps Script skills and the connector between them. Claude reads and updates the Apps Script behind your Google Sheets, following best practices for formulas, style and code.",
+  "author": { "name": "BrilSheet", "url": "https://brilsheet.com" },
+  "homepage": "https://brilsheet.com/claude",
+  "license": "Proprietary"
+}

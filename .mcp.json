@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "brilsheet": {
+      "type": "http",
+      "url": "https://connect.brilsheet.com/mcp"
+    }
+  }
+}
