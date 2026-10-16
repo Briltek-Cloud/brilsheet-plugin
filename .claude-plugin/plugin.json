@@ -9,5 +9,6 @@
     "url": "https://brilsheet.com"
   },
   "homepage": "https://brilsheet.com/claude",
-  "license": "Proprietary"
+  "license": "Proprietary",
+  "privacyPolicyUrl": "https://brilsheet.com/privacy"
 }
