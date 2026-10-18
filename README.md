@@ -10,7 +10,7 @@ BrilSheet gives Claude Sheet skills, Apps Script skills and a connector between 
 
 ## Data
 
-BrilSheet reads and saves the Apps Script of sheets you can edit, and a hidden label that records which script belongs to each sheet, through your own Google sign-in. It stores nothing on its own servers. Backups are versions in your script's Project history.
+BrilSheet reads and saves the Apps Script of the sheet you're working in, through your own Google sign-in. It does not open your spreadsheets. It remembers which script belongs to each sheet in one private file in its own app data folder in your Google Drive, which cannot see your other files. It stores nothing on its own servers. Backups are versions in your script's Project history.
 
 Privacy policy: https://brilsheet.com/privacy
 Support: support@brilsheet.com
