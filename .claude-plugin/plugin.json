@@ -1,7 +1,7 @@
 {
   "name": "brilsheet",
   "displayName": "BrilSheet",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Full Google Sheets automation in Claude: sheet and Apps Script work together, built to best practice, with a backup before every change.",
   "author": {
     "name": "Briltek Cloud",
@@ -9,6 +9,13 @@
     "url": "https://brilsheet.com"
   },
   "homepage": "https://brilsheet.com/claude",
-  "license": "Proprietary",
-  "privacyPolicyUrl": "https://brilsheet.com/privacy"
+  "repository": "https://github.com/Briltek-Cloud/brilsheet-plugin",
+  "license": "SEE LICENSE IN LICENSE",
+  "privacyPolicyUrl": "https://brilsheet.com/privacy",
+  "keywords": [
+    "google-sheets",
+    "apps-script",
+    "automation",
+    "google-workspace"
+  ]
 }

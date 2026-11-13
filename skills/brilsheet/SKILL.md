@@ -1,13 +1,13 @@
 ---
 name: brilsheet
-description: Use for any request in Google Sheets. Every spreadsheet has two parts, its cells and its Apps Script code, and BrilSheet is how you read and change the Apps Script. Use it whenever a request touches the sheet's script, code, macros, functions, menus, buttons, automations, schedules, triggers, emails, alerts, imports or syncs, anything that is not working, and for formulas and formatting. The user never needs to mention BrilSheet or script.
+description: Use when a Google Sheets request involves the sheet's Apps Script, such as reading, writing or fixing script code, custom functions, menus, buttons, triggers, schedules, emails, alerts, imports, syncs, or an automation that is not working. The user does not need to mention BrilSheet or the script.
 ---
 
 # BrilSheet
 
 The sidebar on its own only reaches cells. BrilSheet's tools reach the second part of the sheet, its Apps Script. Never tell the user you cannot see their script: read it with BrilSheet.
 
-1. At the start of every request about this spreadsheet, call read_sheet_and_apps_script with the spreadsheet's ID or link. It returns BrilSheet's skills and plan, the sheet's settings and its whole script. Follow everything it says, in order:
+1. At the start of every request that involves the script, call read_sheet_and_apps_script with the spreadsheet's ID or link. It returns BrilSheet's skills and plan, the sheet's settings and its whole script. Follow everything it says, in order:
    - If it gives a welcome, show it first, exactly as written.
    - If it asks the BrilSheet tab question, ask it before doing the work (use your tool for questions with options if you have one), then call set_brilsheet_tab with "add" or "skip".
 2. If no script is linked and the request needs one, call request_apps_script_link and show the three steps it returns as a numbered list, exactly as written. When the user pastes the address, call link_apps_script.
